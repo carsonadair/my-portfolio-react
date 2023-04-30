@@ -3,8 +3,17 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "../App.css";
 import itMe from "./assets/it_me.jpg";
 import rohan from "./assets/rohan.png"
+import Resume from "./assets/CarsonAdairResume.pdf"
 
 export default function About() {
+
+  const handleDownload = () => {
+    const link = document.createElement("a");
+    link.href = { Resume };
+    link.download = "CarsonAdairResume.pdf";
+    link.click();
+  };
+
   return (
     <article id="AboutMe">
       <h1>About Me</h1>
@@ -19,6 +28,7 @@ export default function About() {
         </p>
         <img id="rohan" src={rohan} alt="Rohan"></img>
       </div>
+      <button className="grid-item" id ="downloadButton" onClick={handleDownload}>Download My Resume</button>
     </article>
   );
 }
