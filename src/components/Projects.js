@@ -8,10 +8,10 @@ import IconFour from './assets/4.png'
 import IconFive from './assets/5.png'
 import IconSix from './assets/6.png'
 
-export default function WorkSamples() {
+export default function Projects() {
     return (
         <section id="Projects">
-            <h1>My Web Apps</h1>
+            <h1>My Projects</h1>
             <div className="gridparent">
             <a href="https://tiomeko.github.io/deja-brew/" target={"_blank"}>
                 <figure className="grid-item">
