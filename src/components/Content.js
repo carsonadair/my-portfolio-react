@@ -3,14 +3,14 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "../App.css";
 import itMe from "./assets/it_me.jpg";
 import rohan from "./assets/rohan.png"
-import Resume from "./assets/CarsonAdairResume.pdf"
+import Resume from "./assets/CarsonAdairResume.png"
 
 export default function About() {
 
   const handleDownload = () => {
     const link = document.createElement("a");
     link.href = { Resume };
-    link.download = "CarsonAdairResume.pdf";
+    link.download = "CarsonAdairResume.png";
     link.click();
   };
 
