@@ -1,12 +1,13 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../App.css";
-import {itMe} from "./assets/itme.jpg";
+import itMe from "./assets/it_me.jpg";
+import rohan from "./assets/rohan.png"
 
 export default function About() {
   return (
-    <article>
-      <h1 id="About-Me">About Me</h1>
+    <article id="AboutMe">
+      <h1>About Me</h1>
       <div>
         <img id="itme" src={itMe} alt="Profile"></img>
         <p>
@@ -16,6 +17,7 @@ export default function About() {
             I have skills in production, editing, and multi media management, including social media accounts. 
             I enjoy front-end web development.
         </p>
+        <img id="rohan" src={rohan} alt="Rohan"></img>
       </div>
     </article>
   );

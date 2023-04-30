@@ -10,42 +10,42 @@ import IconSix from './assets/6.png'
 
 export default function WorkSamples() {
     return (
-        <section>
+        <section id="Projects">
             <h1>My Web Apps</h1>
             <div className="gridparent">
             <a href="https://tiomeko.github.io/deja-brew/" target={"_blank"}>
                 <figure className="grid-item">
-                        <img src={IconOne} alt="statistics" width="100" height="100"></img>
+                        <img src={IconOne} alt="statistics" width="300" height="300"></img>
                         <figcaption><button id="webappbuttons"> Deja Brew</button></figcaption>
                 </figure> 
             </a>
             <a href="https://github.com/carsonadair/express-note-taker" target={"_blank"}>
                 <figure className="grid-item">
-                        <img src={IconTwo} alt="statistics" width="100" height="100"></img>
+                        <img src={IconTwo} alt="statistics" width="300" height="300"></img>
                         <figcaption><button id="webappbuttons"> Express Note Taker</button></figcaption>
                 </figure> 
             </a>
             <a href="https://shielded-temple-21395.herokuapp.com/" target={"_blank"}>
                 <figure className="grid-item">
-                        <img src={IconThree} alt="statistics" width="100" height="100"></img>
+                        <img src={IconThree} alt="statistics" width="300" height="300"></img>
                         <figcaption><button id="webappbuttons"> Terrain of Thought</button></figcaption>
                 </figure> 
             </a>
             <a href="https://carsonadair.github.io/challeng-6-weather-app/"target={"_blank"}>
                         <figure className="grid-item">
-                            <img src={IconFour} alt="statistics" width="100" height="100"></img>
+                            <img src={IconFour} alt="statistics" width="300" height="300"></img>
                             <figcaption><button id="webappbuttons"> 5 Day Forecast</button></figcaption>
                         </figure>
             </a>
             <a href="https://github.com/carsonadair/employee-tracker"target={"_blank"}>
                 <figure className="grid-item">
-                        <img src={IconFive} alt="statistics" width="100" height="100"></img>
+                        <img src={IconFive} alt="statistics" width="300" height="300"></img>
                         <figcaption><button id="webappbuttons"> Employee Tracker</button></figcaption>
                 </figure> 
             </a>
             <a href="https://github.com/carsonadair/team-profile-generator"target={"_blank"}>
                     <figure className="grid-item">
-                        <img src={IconSix} alt="statistics" width="100" height="100"></img>
+                        <img src={IconSix} alt="statistics" width="300" height="300"></img>
                         <figcaption><button id="webappbuttons"> Team Profile Generator</button></figcaption>
                     </figure>
             </a>

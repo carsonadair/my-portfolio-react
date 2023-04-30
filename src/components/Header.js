@@ -2,50 +2,22 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../App.css";
 
-export default function NavBar({ currentPage, handlePageChange }) {
+export default function NavBar() {
   return (
-    <header className="header">
+    <header id="Header" className="header">
       <h1>
         Carson Adair
         <div class="btn-group" role="group" aria-label="Outlined Buttons">
           <a href="#AboutMe">
-            <button
-              className={
-                currentPage === "AboutMe"
-                  ? "btn btn-primary"
-                  : "btn btn-outline-primary"
-              }
-              onClick={() => handlePageChange("AboutMe")}
-              type="button"
-            >
-              About Me
-            </button>
+            <button type="button" class="btn btn-outline-primary each-button">About Me</button>
           </a>
           <a href="#Projects">
-            <button
-              className={
-                currentPage === "Projects"
-                  ? "btn btn-primary"
-                  : "btn btn-outline-primary"
-              }
-              onClick={() => handlePageChange("Projects")}
-              type="button"
-              class="btn btn-outline-primary"
-            >
+            <button type="button" class="btn btn-outline-primary each-button">
               Projects
             </button>
           </a>
           <a href="#Contact">
-            <button
-              className={
-                currentPage === "Contact"
-                  ? "btn btn-primary"
-                  : "btn btn-outline-primary"
-              }
-              onClick={() => handlePageChange("Contact")}
-              type="button"
-              class="btn btn-outline-primary"
-            >
+            <button type="button" class="btn btn-outline-primary each-button">
               Contact
             </button>
           </a>
