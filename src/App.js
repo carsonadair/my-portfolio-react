@@ -1,16 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
-import Header from './components/Header'
-import Content from './components/Content'
-import Footer from './components/Footer'
+import React from "react";
+import "./App.css";
+import Header from "./components/Header";
+import Content from "./components/Content";
+import Projects from "./components/Projects"
+import Footer from "./components/Footer";
 
 function App() {
   return (
-    <main>
+    <div>
       <Header />
       <Content />
+      <Projects />
       <Footer />
-    </main>
+    </div>
   );
 }
 
